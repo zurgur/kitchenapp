@@ -1,8 +1,24 @@
-package teymi15.assignment1.control;
+package teymi15.kitchenapp.control;
 
 import java.util.ArrayList;
 
 public class Search {
+    public ArrayList getRecipes() {
+        return recipes;
+    }
+
+    public void setRecipes(ArrayList recipes) {
+        this.recipes = recipes;
+    }
+
+    public ArrayList getIngredients() {
+        return ingredients;
+    }
+
+    public void setIngredients(ArrayList ingredients) {
+        this.ingredients = ingredients;
+    }
+
     private ArrayList recipes = new ArrayList();
     private ArrayList ingredients = new ArrayList();
 
