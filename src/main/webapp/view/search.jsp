@@ -12,11 +12,13 @@
     <title>Search Page</title>
 </head>
 <body>
-<h1>What would you like to cook?</h1>
-<form method="POST" action="">
-    <input type="text" name="search" placeholder="Tell me what you want">
-    <input type="submit" value="Confirm">
-
-</form>
+    <h1>What would you like to cook?</h1>
+    <form method="POST" action="">
+        <input type="text" name="search" placeholder="Tell me what you want">
+        <input type="submit" value="Confirm">
+    </form>
+    <p>
+        ${searchResults}
+    </p>
 </body>
 </html>
